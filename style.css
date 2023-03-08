@@ -1,0 +1,151 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav{
+  background-color: brown;
+  text-align: center;
+  color: aliceblue;
+  padding:  5PX;
+}
+.second{
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+nav>.second,h1,input{
+display: inline-block;
+margin-left: 500px;
+font-size: 30px;
+width: 200px;
+padding: 5px;
+border-radius: 5px;
+border: none;
+color: brown;
+}
+header{
+  background: url(/Images/header.webp);
+  height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+header>ul{
+  left: 37%;
+  top: 80%;
+}
+header>ul>button{
+  padding: 10px 30px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+main{
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+margin-top: 100px;
+}
+
+main>.row{
+  
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 50px;
+}
+main>.row>.card{
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+main>.row>.card>img {
+  height: 500px;
+  border-radius: 10px;
+    width: 100%;
+}
+main>.row>ul{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  text-align: center;}
+main>.row>ul>h1{
+  display: inline;
+  padding: 0;
+  margin: 0;
+  color: black;
+  font-size: 30px;
+  padding: 10px;
+  width: 100%;
+}
+main>.row>ul>button{
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: brown;
+  text-align: center;
+  font-size: 20px;
+  color: aliceblue;
+  border: none;
+}
+
+
+/* main-second */
+.main-second {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.main-second>.row {
+
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.main-second>.row>.card {
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+}
+
+.main-second>.row>.card>img {
+  height: 300px;
+  width: 100%;
+}
+
+.main-second>h1 {
+  display: block;
+  padding: 0;
+  margin: 0;
+  color: gray;
+  font-size: 30px;
+  padding: 0px;
+  text-align: center;
+  width: 100%;
+}
+.main-second>.row>.card>p {
+  color: rgb(180, 23, 5);
+  font-weight: bold;
+}
